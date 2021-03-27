@@ -9,6 +9,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+
+  "styles": [
+    "node_modules/@fortawesome/fontawesome-free/css/all.css",
+    "src/styles.scss"
+   ],
+
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.4",
