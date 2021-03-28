@@ -1,3 +1,4 @@
+import { HomeModule } from './home/home.module';
 import { CoreModule } from './core/core.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -19,8 +20,8 @@ import { ShopModule } from './shop/shop.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    CoreModule,
-    ShopModule
+    CoreModule, 
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
